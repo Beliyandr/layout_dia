@@ -1,0 +1,3 @@
+var e=document.querySelector(".header__burger"),t=document.querySelector(".header__menu"),n=document.querySelector(".menu__list"),c=document.querySelector(".footer__form");function o(){t.classList.toggle("header__menu--active"),t.classList.contains("header__menu--active")?document.body.style.overflow="hidden":document.body.style.overflow="auto"}e.addEventListener("click",o),n.addEventListener("click",function(e){e.target.classList.contains("menu__link")&&t.classList.contains("header__menu--active")&&o()}),/* очитстка формы после отправки */c.addEventListener("submit",function(e){e.preventDefault(),c.querySelectorAll("input").forEach(function(e){e.value=""})});//# sourceMappingURL=index.1327c80f.js.map
+
+//# sourceMappingURL=index.1327c80f.js.map
